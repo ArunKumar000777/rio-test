@@ -1,0 +1,35 @@
+.product-box {
+    background-color: #f1f1f1;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+}
+
+.product-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Number of lines before truncation */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+.link-text {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.link-text:hover {
+    color: black;
+}
+.product-price-text {
+    font-size: 1.4rem;
+    font-weight: 500;
+}

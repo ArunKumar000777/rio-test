@@ -1,0 +1,26 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+.search-input {
+    outline: none;
+    border: none;
+}
+.input-box {
+    border: 1px solid rgb(178, 175, 175);
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+.search-icon {
+    font-size: 20px;
+}
+.error-text {
+    font-size: 1.2rem;
+    color: red;
+    text-align: center;
+    margin-top: 2rem;
+}
